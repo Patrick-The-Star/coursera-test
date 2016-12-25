@@ -1,0 +1,125 @@
+* {
+	box-sizing : border-box;
+	
+}
+
+
+
+body h1{
+	text-align: center;
+	font-family: 'Comic Sans MS';
+	margin-bottom: 1em;
+	margin-top:10px;
+
+}
+
+body div section span h1{
+	margin-bottom:-0.9em;
+	font-size:2em;
+	margin-top:0.2em;
+}
+
+.menu{
+	border : 2px solid black;
+	margin-bottom:4em;
+
+	float: left;
+	background-color: #A9A9A9;
+	position:relative;
+	width:100%;
+}
+
+.description{
+	margin-top: 2.5em;
+	margin-right:12px;
+	margin-left:12px;
+	margin-bottom:5px;
+	font-family: 'Comic Sans MS';
+}
+
+.headings{
+	font-family: 'Comic Sans MS';
+	text-align: center;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	position:absolute;
+	top:0;
+	right:0;
+	
+	border-bottom : 2px solid black;
+	border-left : 2px solid black;
+}
+
+#companyname{
+	color:white;
+	font-size:1.8em;
+	font-family:'Comic Sans MS';
+	
+	margin-left:0.8em;
+}
+
+#chickenhead{
+	background-color:#990000;
+	color:#ffcc00;
+}
+
+#beefhead{
+	background-color:#350000;
+	color:white;
+}
+
+#sushihead{
+	background-color:#ffcc00;
+	color:#350000;
+}
+
+body .row{
+	margin-right:0.5em;
+	margin-left:0.5em;
+}
+
+
+
+p {
+	font-size:1.2em;
+}
+
+ul li hr{
+	margin-top:-10px;
+}
+
+@media (max-width:767px){
+	body .row{
+	margin-right:3.5em;
+	margin-left:3.5em;
+
+
+
+	}
+
+	body h1{
+	font-size:1.5em;
+	margin-top:0px;
+	}
+
+	body div section span h1{
+	font-size:1.5em;
+	}	
+
+
+	#companyname{
+	
+	font-size:1.5em;
+	
+	}
+}
+
+#header-nav{
+	background-color:#1a001a;
+}
+
+#nav-list{
+	text-align: center;
+	font-size:1.4em;
+}
